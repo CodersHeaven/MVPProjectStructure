@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingTop="10dp"
+android:paddingBottom="10dp"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.csns.optimizebuddyfinder.utils.views.CustomTextView
+    android:id="@+id/txtHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:fontName="Gotham_Book"
+    android:textColor="@color/colorPrimary"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:gravity="top|bottom|center_horizontal|center_vertical|fill_horizontal|fill_vertical|fill"/>
+
+    <View
+    android:id="@+id/viewUnderline"
+    android:layout_width="50dp"
+    android:layout_height="2dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/colorPrimaryDark"/>
+</LinearLayout>

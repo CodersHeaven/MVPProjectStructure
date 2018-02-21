@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="item_click_support" type="id" />
+
+    <declare-styleable name="attrs_header">
+        <attr name="heading" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomFontTextView">
+        <attr name="fontName" />
+    </declare-styleable>
+
+    <attr name="fontName" format="enum">
+        <enum name="Gotham_Book" value="1" />
+        <enum name="Gotham_Medium" value="2" />
+    </attr>
+
+</resources>
